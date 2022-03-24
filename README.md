@@ -1,2 +1,2 @@
-# food_order_landing_page
+# Food order landing page
 Responsive landing page design for food order website
