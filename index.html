@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inkoop Internship Task</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        body {
+            margin: 0px;
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hideOnDesktop mobile-header">
+        <div class="icon" id="burger-menu" onclick="toggleMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewbox="0 0 283.426 283.426" style="enable-background:new 0 0 283.426 283.426;" xml:space="preserve">
+                <g>
+                    <rect x="0" y="40.84" style="fill:#ff4e4e;" width="140" height="20"/>
+                    <rect x="0" y="117.282" style="fill:#ff4e4e;" width="200" height="20"/>
+                    <rect x="0" y="194.851" style="fill:#ff4e4e;" width="170" height="20"/>
+                </g>
+            </svg>
+        </div>
+        <div style="font-size: 28px; font-family: fs-ostro-display; margin: 0px 32px;">
+            Lorem
+        </div>
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewbox="0 0 172 172" style=" fill:#000000; transform: rotateY(180deg)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ff4e4e"><path d="M26.875,37.625c-2.96045,0 -5.375,2.41455 -5.375,5.375c0,2.96045 2.41455,5.375 5.375,5.375h11.92578l14.10938,56.4375c1.19678,4.78711 5.47998,8.0625 10.41406,8.0625h61.64453c4.8501,0 8.96533,-3.2124 10.24609,-7.89453l13.94141,-51.23047h-90.03125l2.6875,10.75h73.40234l-10.24609,37.625h-61.64453l-14.10937,-56.4375c-1.19678,-4.78711 -5.47998,-8.0625 -10.41406,-8.0625zM118.25,112.875c-8.83935,0 -16.125,7.28565 -16.125,16.125c0,8.83935 7.28565,16.125 16.125,16.125c8.83935,0 16.125,-7.28565 16.125,-16.125c0,-8.83935 -7.28565,-16.125 -16.125,-16.125zM69.875,112.875c-8.83935,0 -16.125,7.28565 -16.125,16.125c0,8.83935 7.28565,16.125 16.125,16.125c8.83935,0 16.125,-7.28565 16.125,-16.125c0,-8.83935 -7.28565,-16.125 -16.125,-16.125zM69.875,123.625c3.02344,0 5.375,2.35156 5.375,5.375c0,3.02344 -2.35156,5.375 -5.375,5.375c-3.02344,0 -5.375,-2.35156 -5.375,-5.375c0,-3.02344 2.35156,-5.375 5.375,-5.375zM118.25,123.625c3.02344,0 5.375,2.35156 5.375,5.375c0,3.02344 -2.35156,5.375 -5.375,5.375c-3.02344,0 -5.375,-2.35156 -5.375,-5.375c0,-3.02344 2.35156,-5.375 5.375,-5.375z"></path></g></g></svg>
+        </div>
+    </div>
+
+    <div id="main">
+        <div id="side-bar">
+            <div id="title" class="hideOnMobile">
+                Lorem <br> Ipsum
+            </div>
+            <div style="margin-top: 20px;">
+                <ul style="padding: 0px; list-style: none;">
+                    <li class="nav-items"> <a class="custom-strikethrough"> About </a> </li>
+                    <li class="nav-items"> <a> Services  </a> </li>
+                    <li class="nav-items"> <a> Cuisine </a> </li>
+                    <li class="nav-items"> <a> Gallery </a> </li>
+                    <li class="nav-items"> <a> Contact </a> </li>
+                    <li class="nav-items"> <a> Book </a> </li>
+                </ul>
+            </div>
+            <a href="#" class="btn-large" style="margin-top: 15px;">
+                Cart
+            </a>
+        </div>
+        <div id="main-body">
+            <div class="headline">
+                What are you<br> having for Lunch?
+            </div>
+            <div id="small-para" class="custom-underline">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius qui provident beatae, minima fuga
+            </div>
+            <div class="dishes-container">
+                <div class="dishes">
+                    <div class="menu-items">
+                        <div class="menu-wrapper">
+                            <img class="menu-image" src="./images/mexican-taco.jpg" alt="mexican-taco"> Maxican Taco
+                        </div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-wrapper">
+                            <img class="menu-image" src="./images/farmhouse-pizza.jpg" alt="farmhouse-pizza"> Farmhouse Pizza
+                        </div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-wrapper">
+                            <img class="menu-image" src="./images/chicken-burger.jpg" alt="chicken-burger"> Chicken Burger
+                        </div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-wrapper">
+                            <img class="menu-image" src="./images/loaded-nachos.jpg" alt="loaded-nachos"> Loaded Nachos
+                        </div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-wrapper">
+                            <img class="menu-image" src="./images/hakka-noodles.jpg" alt="hakka-noodles"> Hakka Noodles
+                        </div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-wrapper">
+                            <img class="menu-image" src="./images/grill-sandwich.jpg" alt="grill-sandwich"> Grill Sandwich
+                        </div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-wrapper">
+                            <img class="menu-image" src="./images/roasted-chicken.jpg" alt="roasted-chicken"> Roasted Chicken
+                        </div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-wrapper">
+                            <img class="menu-image" src="./images/lasagna.jpg" alt="lasagna"> Lasagna
+                        </div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-wrapper">
+                            <img class="menu-image" src="./images/mac-&-cheese.jpg" alt="mac-&-cheese"> Mac & Cheese
+                        </div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-wrapper">
+                            <img class="menu-image" src="./images/garlic-bread.jpg" alt="garlic-bread"> Garlic Bread
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            if (document.getElementById('side-bar').className) {
+                document.getElementById('side-bar').classList.remove('active');
+            } else {
+                document.getElementById('side-bar').classList.add('active');
+            }
+        }
+    </script>
+
+</body>
+
+</html>
